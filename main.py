@@ -57,10 +57,10 @@ def go(config: DictConfig):
                 os.path.join(hydra.utils.get_original_cwd(),"src", "basic_cleaning"),
                 "main",
                 parameters={
-                    "input_artifact": "",
-                    "output_artifact": "",
+                    "input_artifact": "sample.csv:latest",
+                    "output_artifact": "clean_sample.csv",
                     "output_type": "",
-                    "output_description": "",
+                    "output_description": "",   
                     "min_price": "",
                     "max_price": "",
                 },
