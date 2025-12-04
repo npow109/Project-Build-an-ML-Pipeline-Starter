@@ -59,10 +59,10 @@ def go(config: DictConfig):
                 parameters={
                     "input_artifact": "sample.csv:latest",
                     "output_artifact": "clean_sample.csv",
-                    "output_type": "",
-                    "output_description": "",   
-                    "min_price": "",
-                    "max_price": "",
+                    "output_type": "string",
+                    "output_description": "description",   
+                    "min_price": "10",
+                    "max_price": "350",
                 },
             )
 
